@@ -3,7 +3,7 @@ This is a simple R shiny app for opening a discrete Bayesian Network (BN) model 
 
 The app can be launched from [HERE](https://qqpvju-madstroldborg.shinyapps.io/BBN_shiny_app_fin/).  
 
-The dashboard is a R shiny application and is based on the bnlearn and gRain packages. The design and features included in the app draw heavily from the excellent and more sophisticated ShinyBN app developed by Chen et al. (2019). Here we were aiming for a simpler app that can be used to explore and evaluate existing discrete BN models.
+The dashboard is a R shiny application and is based on the bnlearn and gRain packages. The design and features included in the app draw heavily from the excellent and more sophisticated [ShinyBN app](https://github.com/JiajinChen/shinyBN) developed by Chen et al. (2019). Here we were aiming for a simpler app that can be used to explore and evaluate existing discrete BN models.
 
 ## How to use?
 In the Open network menu item you can open an existing discrete BN. Note, only discrete networks are currently supported. The app comes with some pre-loaded examples (Groundwater leaching BN, Asia BN and Stroke BN). If you want to open your own network model, it must be saved as an R object in (class bn or bnfit) or in one of the following network file formats: .net, .dot, .dsc, .bif
