@@ -1,6 +1,8 @@
 # Simple R shiny BN app
 This is a simple R shiny app for opening a discrete Bayesian Network (BN) model file, display the network graphically in different ways as well as carry out probabilistic inference scenarios and show the results.  
 
+The app can be launched from [HERE](https://qqpvju-madstroldborg.shinyapps.io/BBN_shiny_app_fin/).  
+
 The dashboard is a R shiny application and is based on the bnlearn and gRain packages. The design and features included in the app draw heavily from the excellent and more sophisticated ShinyBN app developed by Chen et al. (2019). Here we were aiming for a simpler app that can be used to explore and evaluate existing discrete BN models.
 
 ## How to use?
